@@ -1,0 +1,78 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    font-size: 20px;
+    font-family: Verdana;
+    background-image: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Playpen Sans', cursive;
+    font-size: 100px;
+    text-shadow: 2px 2px blue;
+}
+
+h2 {
+    text-align: center;
+}
+
+.first-two-paragraphs {
+    color: #e534eb;
+    background-color: lightgrey;
+}
+
+.last-paragraph {
+    color:black;
+    background-color: lightblue;
+    text-align: right;
+}
+
+a {
+    cursor: no-drop;
+}
+
+.black-dog {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.black-dog:hover {
+    width: 500px;
+    transition: 2s;
+}
+
+.many-dogs {
+    border-radius: 50%;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.myBorder {
+    border-width: 5px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 20px;
+    border-collapse: collapse;
+    padding: 20px;
+    
+}
+.line {
+    border-bottom-width: 3px;
+    border-bottom-color: brown;
+    border-bottom-style: dotted;
+}
+
+a:hover {
+    color: yellow;
+}
